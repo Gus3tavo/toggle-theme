@@ -1,0 +1,75 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f1f1f1;
+}
+
+.container, .container-dark{
+    width: 100vw;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    background-color: #f1f1f1;
+}
+
+.container-dark{
+    background-color: #292C35;
+    color: #f1f1f1;
+}
+
+.moon, .sun {
+    display: flex;
+    width: 9em;
+    border-radius: 25px;
+    justify-content: space-between;
+    padding: 0 2px
+}
+
+.moon, .sun {
+    background-color: #000;
+}
+
+img{
+    width: 3em;
+    height: 3em;
+}
+.button, .button-slide{
+    position: absolute;
+    width: 3.3em;
+    height: 3.3em;
+    border-radius: 50%;
+    border: none;
+    margin: 2.2px;
+    cursor: pointer;
+    outline: none;
+}
+
+.button{
+    margin-left: 1px;
+}
+
+.button-slide{
+    margin-left: 99px;
+}
+
+p, .light, .dark{
+    font-size: 1.3em;
+    margin: 20px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #f1f1f1;
+    text-shadow: 0.05em 0.05em 0.3em #292c35;
+    outline: none;
+}
+
+.hidden{
+    display: none;
+}
